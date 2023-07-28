@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.holder {
+   display: grid;
+   grid-template-columns: repeat(6,100px);
+   grid-template-rows: repeat(2,100px);
+   /* justify-content: space-between; */
+   grid-gap: 10px; /* Gap between grid items */
+  width: 200px; /* Total width of the grid */
+
+  }
+  
+  
+  #item-3 {
+    
+    background-color: green;
+  }
+  #item-1 {
+    
+    background-color: red;
+  }
+  #item-2 {
+   
+    background-color: blue;
+  }
+  
