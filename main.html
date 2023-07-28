@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Grid properties on the holder */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(6, 100px); /* Two columns each with 100px width */
+  grid-template-rows: repeat(2, 100px); /* Two rows each with 100px height */
+  grid-gap: 10px; /* Gap between grid items */
+  width: 200px; /* Total width of the grid */
+}
+
+/* Styles for the items (you can adjust these according to your design) */
+.item {
+  background-color: #860c0c;
+}
+
+  </style>
 </head>
-
 <body>
-     <div class="holder">
-      <div id="item-3">Item 3</div>
-      <div id="item-1">Item 1</div>
-      <div id="item-2">Item 2</div>
-      <div id="item-2">Item 2</div>
-      <div id="item-2">Item 2</div>
-      <div id="item-2">Item 2</div>
-      
-
-      
-      <!-- Add more items here if needed -->
-    </div>
-
+  <div class="holder">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 4</div>
+  </div>
+  
 </body>
-
 </html>
